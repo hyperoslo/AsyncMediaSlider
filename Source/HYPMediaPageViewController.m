@@ -4,9 +4,9 @@
 
 @interface HYPMediaPageViewController ()
 
-@property (nonatomic, strong) UIPageViewController *pageViewController;
-@property (nonatomic, strong) NSArray *imageURLStrings;
-@property (nonatomic, strong) UIImage *placeholderImage;
+@property (nonatomic) UIPageViewController *pageViewController;
+@property (nonatomic) NSArray *imageURLStrings;
+@property (nonatomic) UIImage *placeholderImage;
 
 @end
 
