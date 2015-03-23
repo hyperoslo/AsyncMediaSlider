@@ -19,7 +19,6 @@
 /* Begin PBXFileReference section */
 		1450496D1AB7858300D9745F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1450496E1AB7858300D9745F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		145049711AB785A800D9745F /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		145049721AB785A800D9745F /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		145049731AB785A800D9745F /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		145049741AB785A800D9745F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -63,7 +62,6 @@
 		145049701AB7859600D9745F /* Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				145049711AB785A800D9745F /* .travis.yml */,
 				145049721AB785A800D9745F /* CONTRIBUTING.md */,
 				145049731AB785A800D9745F /* LICENSE.md */,
 				145049741AB785A800D9745F /* README.md */,

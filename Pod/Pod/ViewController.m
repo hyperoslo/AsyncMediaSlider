@@ -17,50 +17,17 @@ static const CGFloat HYPMediaPageViewHeight = 357.0f;
 
     self.view.backgroundColor = [UIColor blackColor];
 
-    [self.view addSubview:self.mediaPageViewController.view];
+    self.mediaPageViewController = [HYPMediaPageViewController new];
 
-    NSDictionary *views = @{@"mediaPageView": self.mediaPageViewController.view};
-
-    [self.view addConstraints:
-     [NSLayoutConstraint constraintsWithVisualFormat:@"H:|[mediaPageView]|"
-                                             options:0
-                                             metrics:nil
-                                               views:views]];
-
-    [self.view addConstraint:
-     [NSLayoutConstraint constraintWithItem:self.mediaPageViewController.view
-                                  attribute:NSLayoutAttributeCenterY
-                                  relatedBy:NSLayoutRelationEqual
-                                     toItem:self.view
-                                  attribute:NSLayoutAttributeCenterY
-                                 multiplier:1.0f
-                                   constant:0.0f]];
-}
-
-#pragma mark - Getters
-
-- (HYPMediaPageViewController *)mediaPageViewController
-{
-    if (_mediaPageViewController) return _mediaPageViewController;
-
-    _mediaPageViewController = [HYPMediaPageViewController new];
-    _mediaPageViewController.view.translatesAutoresizingMaskIntoConstraints = NO;
-
-    [_mediaPageViewController setImageURLStrings:@[@"http://lorempixel.com/640/640/sports",
-                                                   @"http://lorempixel.com/g/640/640/transport",
-                                                   @"http://lorempixel.com/640/640/food/"]
+    [self.mediaPageViewController setImageURLStrings:@[@"http://lorempixel.com/640/640/sports",
+                                                       @"http://lorempixel.com/g/640/640/transport",
+                                                       @"http://lorempixel.com/640/640/food/"]
                              andPlaceholderImage:[UIImage imageNamed:@"hypPlaceholderImage"]];
 
-    [_mediaPageViewController.view addConstraint:
-     [NSLayoutConstraint constraintWithItem:self.mediaPageViewController.view
-                                  attribute:NSLayoutAttributeHeight
-                                  relatedBy:NSLayoutRelationEqual
-                                     toItem:nil
-                                  attribute:NSLayoutAttributeNotAnAttribute
-                                 multiplier:1.0f
-                                   constant:HYPMediaPageViewHeight]];
-
-    return _mediaPageViewController;
+    self.mediaPageViewController.view.frame = CGRectMake(0.0f, 0.0f, CGRectGetWidth(self.view.bounds), HYPMediaPageViewHeight);
+    self.mediaPageViewController.view.center = self.view.center;
+    
+    [self.view addSubview:self.mediaPageViewController.view];
 }
 
 @end
