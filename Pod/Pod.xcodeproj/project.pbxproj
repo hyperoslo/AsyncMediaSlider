@@ -11,18 +11,10 @@
 		146D72991AB782920058798C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146D72981AB782920058798C /* main.m */; };
 		146D729F1AB782920058798C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146D729E1AB782920058798C /* ViewController.m */; };
 		146D72A41AB782920058798C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146D72A31AB782920058798C /* Images.xcassets */; };
-		146D72B31AB782920058798C /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 146D72B21AB782920058798C /* Tests.m */; };
+		1691DE551AC03E2700727945 /* HYPMediaPageItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1691DE521AC03E2700727945 /* HYPMediaPageItemViewController.m */; };
+		1691DE561AC03E2700727945 /* HYPMediaPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1691DE541AC03E2700727945 /* HYPMediaPageViewController.m */; };
+		A6C4E6671517A5F651940B5F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D420C13C71867CA973D38849 /* libPods.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		146D72AD1AB782920058798C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146D728B1AB782920058798C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 146D72921AB782920058798C;
-			remoteInfo = Pod;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1450496D1AB7858300D9745F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,9 +30,13 @@
 		146D729D1AB782920058798C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		146D729E1AB782920058798C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		146D72A31AB782920058798C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		146D72AC1AB782920058798C /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		146D72B11AB782920058798C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		146D72B21AB782920058798C /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		1691DE511AC03E2700727945 /* HYPMediaPageItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPMediaPageItemViewController.h; sourceTree = "<group>"; };
+		1691DE521AC03E2700727945 /* HYPMediaPageItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPMediaPageItemViewController.m; sourceTree = "<group>"; };
+		1691DE531AC03E2700727945 /* HYPMediaPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPMediaPageViewController.h; sourceTree = "<group>"; };
+		1691DE541AC03E2700727945 /* HYPMediaPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPMediaPageViewController.m; sourceTree = "<group>"; };
+		34A37B6E22445048E1CF04A8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		89A3112E00C86516CD05DCB6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D420C13C71867CA973D38849 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,13 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		146D72A91AB782920058798C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A6C4E6671517A5F651940B5F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +74,10 @@
 		145049791AB785C700D9745F /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				1691DE511AC03E2700727945 /* HYPMediaPageItemViewController.h */,
+				1691DE521AC03E2700727945 /* HYPMediaPageItemViewController.m */,
+				1691DE531AC03E2700727945 /* HYPMediaPageViewController.h */,
+				1691DE541AC03E2700727945 /* HYPMediaPageViewController.m */,
 				1450497A1AB785C700D9745F /* .gitkeep */,
 			);
 			name = Source;
@@ -96,9 +90,9 @@
 				145049791AB785C700D9745F /* Source */,
 				145049701AB7859600D9745F /* Metadata */,
 				146D72951AB782920058798C /* Pod */,
-				146D72AF1AB782920058798C /* Tests */,
 				146D72941AB782920058798C /* Products */,
 				D0AEA67F93773348378C9B9A /* Frameworks */,
+				5D920D9F41F2C82EC3756DE8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				146D72931AB782920058798C /* Pod.app */,
-				146D72AC1AB782920058798C /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,26 +125,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		146D72AF1AB782920058798C /* Tests */ = {
+		5D920D9F41F2C82EC3756DE8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				146D72B21AB782920058798C /* Tests.m */,
-				146D72B01AB782920058798C /* Supporting Files */,
+				34A37B6E22445048E1CF04A8 /* Pods.debug.xcconfig */,
+				89A3112E00C86516CD05DCB6 /* Pods.release.xcconfig */,
 			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		146D72B01AB782920058798C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				146D72B11AB782920058798C /* Info.plist */,
-			);
-			name = "Supporting Files";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D0AEA67F93773348378C9B9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D420C13C71867CA973D38849 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 146D72B61AB782920058798C /* Build configuration list for PBXNativeTarget "Pod" */;
 			buildPhases = (
+				E9652F679F33949C2110C4D1 /* Check Pods Manifest.lock */,
 				146D728F1AB782920058798C /* Sources */,
 				146D72901AB782920058798C /* Frameworks */,
 				146D72911AB782920058798C /* Resources */,
+				1204F08D9001B8E39A7B68E7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,24 +163,6 @@
 			productName = Pod;
 			productReference = 146D72931AB782920058798C /* Pod.app */;
 			productType = "com.apple.product-type.application";
-		};
-		146D72AB1AB782920058798C /* Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 146D72B91AB782920058798C /* Build configuration list for PBXNativeTarget "Tests" */;
-			buildPhases = (
-				146D72A81AB782920058798C /* Sources */,
-				146D72A91AB782920058798C /* Frameworks */,
-				146D72AA1AB782920058798C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				146D72AE1AB782920058798C /* PBXTargetDependency */,
-			);
-			name = Tests;
-			productName = PodTests;
-			productReference = 146D72AC1AB782920058798C /* Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -204,9 +174,6 @@
 				ORGANIZATIONNAME = Example;
 				TargetAttributes = {
 					146D72921AB782920058798C = {
-						CreatedOnToolsVersion = 6.2;
-					};
-					146D72AB1AB782920058798C = {
 						CreatedOnToolsVersion = 6.2;
 					};
 				};
@@ -225,7 +192,6 @@
 			projectRoot = "";
 			targets = (
 				146D72921AB782920058798C /* Pod */,
-				146D72AB1AB782920058798C /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,43 +205,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		146D72AA1AB782920058798C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1204F08D9001B8E39A7B68E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		E9652F679F33949C2110C4D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		146D728F1AB782920058798C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1691DE561AC03E2700727945 /* HYPMediaPageViewController.m in Sources */,
 				146D729F1AB782920058798C /* ViewController.m in Sources */,
 				146D72991AB782920058798C /* main.m in Sources */,
+				1691DE551AC03E2700727945 /* HYPMediaPageItemViewController.m in Sources */,
 				1450496F1AB7858300D9745F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		146D72A81AB782920058798C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				146D72B31AB782920058798C /* Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		146D72AE1AB782920058798C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 146D72921AB782920058798C /* Pod */;
-			targetProxy = 146D72AD1AB782920058798C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		146D72B41AB782920058798C /* Debug */ = {
@@ -356,53 +334,29 @@
 		};
 		146D72B71AB782920058798C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A37B6E22445048E1CF04A8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Pod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		146D72B81AB782920058798C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A3112E00C86516CD05DCB6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Pod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		146D72BA1AB782920058798C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		146D72BB1AB782920058798C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -423,15 +377,6 @@
 			buildConfigurations = (
 				146D72B71AB782920058798C /* Debug */,
 				146D72B81AB782920058798C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		146D72B91AB782920058798C /* Build configuration list for PBXNativeTarget "Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				146D72BA1AB782920058798C /* Debug */,
-				146D72BB1AB782920058798C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

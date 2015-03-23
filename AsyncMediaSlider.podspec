@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "AsyncMediaSlider"
-  s.summary          = "A short description of AsyncMediaSlider."
+  s.summary          = "A simple to use media slider that loads remote images asynchronously on demand"
   s.version          = "0.1"
   s.homepage         = "https://github.com/hyperoslo/AsyncMediaSlider"
   s.license          = 'MIT'
@@ -13,6 +13,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Source/**/*'
 
-#  s.frameworks = 'UIKit', 'MapKit'
-#  s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 2.3.1'
 end
