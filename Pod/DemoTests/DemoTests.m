@@ -1,11 +1,3 @@
-//
-//  DemoTests.m
-//  DemoTests
-//
-//  Created by Jacob Andersson on 23/04/15.
-//  Copyright (c) 2015 Example. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
