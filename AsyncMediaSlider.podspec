@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Source/**/*'
 
-  s.dependency 'AFNetworking', '~> 2.3.1'
+  s.dependency 'AFNetworking'
 end
