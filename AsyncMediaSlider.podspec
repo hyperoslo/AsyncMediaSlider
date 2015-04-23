@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "AsyncMediaSlider"
   s.summary          = "A simple to use media slider that loads remote images asynchronously on demand"
-  s.version          = "0.1"
+  s.version          = "0.2.0"
   s.homepage         = "https://github.com/hyperoslo/AsyncMediaSlider"
   s.license          = 'MIT'
   s.author           = { "Hyper Interaktiv AS" => "ios@hyper.no" }
