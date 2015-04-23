@@ -12,13 +12,44 @@
 
 @implementation HYPMediaPageViewController
 
+#pragma mark - Getters
+
+- (UIPageViewController *)pageViewController
+{
+    if (_pageViewController) return _pageViewController;
+
+    _pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
+    _pageViewController.view.translatesAutoresizingMaskIntoConstraints = NO;
+
+    return _pageViewController;
+}
+
+#pragma mark - View lifecycle
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 
-    [self addChildViewController:self.pageViewController];
+    [self configurePageViewController];
+}
 
+#pragma mark - Private
+
+- (void)configurePageViewController {
+    if (!self.imageURLStrings) return;
+
+    self.pageViewController.dataSource = self;
+
+    [self.pageViewController setViewControllers:[NSArray arrayWithObject:[self viewControllerAtIndex:0]]
+                                      direction:UIPageViewControllerNavigationDirectionForward
+                                       animated:NO
+                                     completion:nil];
+
+    if ([self.pageViewController.view isDescendantOfView:self.view]) return;
+
+    [self addChildViewController:self.pageViewController];
     [self.view addSubview:self.pageViewController.view];
+    [self.pageViewController didMoveToParentViewController:self];
 
     NSDictionary *views = @{@"pageViewController": self.pageViewController.view};
 
@@ -33,37 +64,18 @@
                                              options:0
                                              metrics:nil
                                                views:views]];
-
-    [self.pageViewController didMoveToParentViewController:self];
-}
-
-#pragma mark - Getters
-
-- (UIPageViewController *)pageViewController
-{
-    if (_pageViewController) return _pageViewController;
-
-    _pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
-    _pageViewController.view.translatesAutoresizingMaskIntoConstraints = NO;
-
-    return _pageViewController;
 }
 
 #pragma mark - Public
 
 - (void)setImageURLStrings:(NSArray *)imageURLStrings andPlaceholderImage:(UIImage *)placeholderImage
 {
-    self.placeholderImage = placeholderImage;
+    if ([self.imageURLStrings isEqualToArray:imageURLStrings]) return;
+
     self.imageURLStrings = imageURLStrings;
+    self.placeholderImage = placeholderImage;
 
-    if (!self.imageURLStrings || !self.imageURLStrings.count) return;
-
-    [self.pageViewController setViewControllers:[NSArray arrayWithObject:[self viewControllerAtIndex:0]]
-                                      direction:UIPageViewControllerNavigationDirectionForward
-                                       animated:NO
-                                     completion:nil];
-
-    self.pageViewController.dataSource = self;
+    [self configurePageViewController];
 }
 
 #pragma mark - UIPageControllerDataSource

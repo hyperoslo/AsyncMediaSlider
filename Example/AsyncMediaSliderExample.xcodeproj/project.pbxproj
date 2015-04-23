@@ -7,28 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1450496F1AB7858300D9745F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1450496E1AB7858300D9745F /* AppDelegate.m */; };
-		146D72991AB782920058798C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146D72981AB782920058798C /* main.m */; };
-		146D729F1AB782920058798C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146D729E1AB782920058798C /* ViewController.m */; };
-		146D72A41AB782920058798C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146D72A31AB782920058798C /* Images.xcassets */; };
+		16760A781AE8ECB5008F0A83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16760A721AE8ECB5008F0A83 /* AppDelegate.m */; };
+		16760A791AE8ECB5008F0A83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16760A731AE8ECB5008F0A83 /* Images.xcassets */; };
+		16760A7A1AE8ECB5008F0A83 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16760A741AE8ECB5008F0A83 /* Info.plist */; };
+		16760A7B1AE8ECB5008F0A83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16760A751AE8ECB5008F0A83 /* main.m */; };
+		16760A7C1AE8ECB5008F0A83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16760A771AE8ECB5008F0A83 /* ViewController.m */; };
 		1691DE551AC03E2700727945 /* HYPMediaPageItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1691DE521AC03E2700727945 /* HYPMediaPageItemViewController.m */; };
 		1691DE561AC03E2700727945 /* HYPMediaPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1691DE541AC03E2700727945 /* HYPMediaPageViewController.m */; };
 		A6C4E6671517A5F651940B5F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D420C13C71867CA973D38849 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1450496D1AB7858300D9745F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1450496E1AB7858300D9745F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		145049721AB785A800D9745F /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		145049731AB785A800D9745F /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		145049741AB785A800D9745F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1450497A1AB785C700D9745F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		146D72931AB782920058798C /* Pod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pod.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		146D72971AB782920058798C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		146D72981AB782920058798C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		146D729D1AB782920058798C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		146D729E1AB782920058798C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		146D72A31AB782920058798C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		146D72931AB782920058798C /* AsyncMediaSliderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncMediaSliderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16760A711AE8ECB5008F0A83 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16760A721AE8ECB5008F0A83 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16760A731AE8ECB5008F0A83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16760A741AE8ECB5008F0A83 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16760A751AE8ECB5008F0A83 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16760A761AE8ECB5008F0A83 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16760A771AE8ECB5008F0A83 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1691DE511AC03E2700727945 /* HYPMediaPageItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPMediaPageItemViewController.h; sourceTree = "<group>"; };
 		1691DE521AC03E2700727945 /* HYPMediaPageItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPMediaPageItemViewController.m; sourceTree = "<group>"; };
 		1691DE531AC03E2700727945 /* HYPMediaPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPMediaPageViewController.h; sourceTree = "<group>"; };
@@ -50,15 +51,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1450496C1AB7858300D9745F /* AppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				1450496D1AB7858300D9745F /* AppDelegate.h */,
-				1450496E1AB7858300D9745F /* AppDelegate.m */,
-			);
-			path = AppDelegate;
-			sourceTree = "<group>";
-		};
 		145049701AB7859600D9745F /* Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,9 +77,9 @@
 		146D728A1AB782920058798C = {
 			isa = PBXGroup;
 			children = (
+				16760A6F1AE8ECB5008F0A83 /* AsyncMediaSliderExample */,
 				145049791AB785C700D9745F /* Source */,
 				145049701AB7859600D9745F /* Metadata */,
-				146D72951AB782920058798C /* Pod */,
 				146D72941AB782920058798C /* Products */,
 				D0AEA67F93773348378C9B9A /* Frameworks */,
 				5D920D9F41F2C82EC3756DE8 /* Pods */,
@@ -97,28 +89,37 @@
 		146D72941AB782920058798C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				146D72931AB782920058798C /* Pod.app */,
+				146D72931AB782920058798C /* AsyncMediaSliderExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		146D72951AB782920058798C /* Pod */ = {
+		16760A6F1AE8ECB5008F0A83 /* AsyncMediaSliderExample */ = {
 			isa = PBXGroup;
 			children = (
-				1450496C1AB7858300D9745F /* AppDelegate */,
-				146D729D1AB782920058798C /* ViewController.h */,
-				146D729E1AB782920058798C /* ViewController.m */,
-				146D72A31AB782920058798C /* Images.xcassets */,
-				146D72961AB782920058798C /* Supporting Files */,
+				16760A701AE8ECB5008F0A83 /* AppDelegate */,
+				16760A731AE8ECB5008F0A83 /* Images.xcassets */,
+				16760A761AE8ECB5008F0A83 /* ViewController.h */,
+				16760A771AE8ECB5008F0A83 /* ViewController.m */,
+				16760A7D1AE8ECC1008F0A83 /* Supporting Files */,
 			);
-			path = Pod;
+			path = AsyncMediaSliderExample;
 			sourceTree = "<group>";
 		};
-		146D72961AB782920058798C /* Supporting Files */ = {
+		16760A701AE8ECB5008F0A83 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				146D72971AB782920058798C /* Info.plist */,
-				146D72981AB782920058798C /* main.m */,
+				16760A711AE8ECB5008F0A83 /* AppDelegate.h */,
+				16760A721AE8ECB5008F0A83 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		16760A7D1AE8ECC1008F0A83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16760A741AE8ECB5008F0A83 /* Info.plist */,
+				16760A751AE8ECB5008F0A83 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		146D72921AB782920058798C /* Pod */ = {
+		146D72921AB782920058798C /* AsyncMediaSliderExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 146D72B61AB782920058798C /* Build configuration list for PBXNativeTarget "Pod" */;
+			buildConfigurationList = 146D72B61AB782920058798C /* Build configuration list for PBXNativeTarget "AsyncMediaSliderExample" */;
 			buildPhases = (
 				E9652F679F33949C2110C4D1 /* Check Pods Manifest.lock */,
 				146D728F1AB782920058798C /* Sources */,
@@ -157,9 +158,9 @@
 			);
 			dependencies = (
 			);
-			name = Pod;
+			name = AsyncMediaSliderExample;
 			productName = Pod;
-			productReference = 146D72931AB782920058798C /* Pod.app */;
+			productReference = 146D72931AB782920058798C /* AsyncMediaSliderExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -176,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 146D728E1AB782920058798C /* Build configuration list for PBXProject "Pod" */;
+			buildConfigurationList = 146D728E1AB782920058798C /* Build configuration list for PBXProject "AsyncMediaSliderExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -189,7 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				146D72921AB782920058798C /* Pod */,
+				146D72921AB782920058798C /* AsyncMediaSliderExample */,
 			);
 		};
 /* End PBXProject section */
@@ -199,7 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146D72A41AB782920058798C /* Images.xcassets in Resources */,
+				16760A7A1AE8ECB5008F0A83 /* Info.plist in Resources */,
+				16760A791AE8ECB5008F0A83 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +246,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1691DE561AC03E2700727945 /* HYPMediaPageViewController.m in Sources */,
-				146D729F1AB782920058798C /* ViewController.m in Sources */,
-				146D72991AB782920058798C /* main.m in Sources */,
 				1691DE551AC03E2700727945 /* HYPMediaPageItemViewController.m in Sources */,
-				1450496F1AB7858300D9745F /* AppDelegate.m in Sources */,
+				16760A7B1AE8ECB5008F0A83 /* main.m in Sources */,
+				16760A781AE8ECB5008F0A83 /* AppDelegate.m in Sources */,
+				16760A7C1AE8ECB5008F0A83 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,10 +338,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = Pod/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AsyncMediaSliderExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AsyncMediaSliderExample;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -350,10 +352,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = Pod/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AsyncMediaSliderExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AsyncMediaSliderExample;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -361,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		146D728E1AB782920058798C /* Build configuration list for PBXProject "Pod" */ = {
+		146D728E1AB782920058798C /* Build configuration list for PBXProject "AsyncMediaSliderExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				146D72B41AB782920058798C /* Debug */,
@@ -370,7 +372,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		146D72B61AB782920058798C /* Build configuration list for PBXNativeTarget "Pod" */ = {
+		146D72B61AB782920058798C /* Build configuration list for PBXNativeTarget "AsyncMediaSliderExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				146D72B71AB782920058798C /* Debug */,
